@@ -378,8 +378,6 @@ def upload_video(youtube, options, video_path, total_videos, index):
 	return url
 
 def run_main(parser, options, args, output=sys.stdout):
-	print options;
-	os._exit(0);
 	"""Run the main scripts from the parsed options/args."""
 	if options.get_categories:
 		output.write(" ".join(Youtube.get_categories().keys()) + "\n")
