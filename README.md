@@ -44,7 +44,7 @@ Upload a video with a description from file (_description.txt_)
 ---------------------------------------------------------------
 <pre>
 youtube-upload --email=myemail@gmail.com --password=mypassword \
-               --title="A.S. Mutter" --description="$(< \description.txt)" \
+               --title="A.S. Mutter" --description="$(\< \description.txt)" \
                --category=Music --keywords="mutter, beethoven" anne_sophie_mutter.flv
 </pre>
 Script will return vieo URL:
